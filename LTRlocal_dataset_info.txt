@@ -1,0 +1,43 @@
+{
+  "MQ2008": {
+    "num_folds": 5,
+    "fold_paths": [
+      "data/MQ2008/Fold1/",
+      "data/MQ2008/Fold2/",
+      "data/MQ2008/Fold3/",
+      "data/MQ2008/Fold4/",
+      "data/MQ2008/Fold5/"
+    ],
+    "num_relevance_labels": 5,
+    "num_nonzero_feat": 40,
+    "num_unique_feat": 40,
+    "query_normalized": true,
+    "feature_filter_dim": []
+  },
+  "MSLR-WEB30k": {
+    "num_folds": 5,
+    "fold_paths": [
+      "data/MSLR-WEB30K/Fold1/",
+      "data/MSLR-WEB30K/Fold2/",
+      "data/MSLR-WEB30K/Fold3/",
+      "data/MSLR-WEB30K/Fold4/",
+      "data/MSLR-WEB30K/Fold5/"
+    ],
+    "num_relevance_labels": 5,
+    "num_nonzero_feat": 136,
+    "num_unique_feat": 131,
+    "query_normalized": true,
+    "feature_filter_dim": []
+  },
+  "istella-s": {
+    "num_folds": 1,
+    "fold_paths": [
+      "data/istella-s/sample/"
+    ],
+    "num_relevance_labels": 5,
+    "num_nonzero_feat": 220,
+    "num_unique_feat": 192,
+    "query_normalized": true,
+    "feature_filter_dim": []
+  }
+}
